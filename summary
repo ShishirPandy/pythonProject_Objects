@@ -1,0 +1,21 @@
+ In this Project  I have implement a real-time object detection model using OpenCV and a pre-trained SSD (Single Shot Multibox Detector) MobileNet v3 model. The goal of this model is to detect and classify objects in live video frames captured from a camera.
+
+Here's a summary of the object detection model and its functionality:
+
+Input: The model takes video frames as input, which are captured from the default camera (index 0) using OpenCV's VideoCapture function.
+
+Pre-processing: The input frames are pre-processed to match the requirements of the SSD MobileNet v3 model. The frames are resized to a fixed size of 320x320 pixels and normalized by scaling the pixel values.
+
+Model Loading: The pre-trained SSD MobileNet v3 model is loaded using OpenCV's dnn_DetectionModel class. The model's architecture is defined in the "ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt" configuration file, and the trained weights are stored in the "frozen_inference_graph.pb" file.
+
+Class Labels: The class labels used by the COCO dataset, which are the names of various objects the model can detect, are loaded from the "coco.names" file.
+
+Object Detection: The loaded model is applied to each frame to detect objects present in the scene. The detect method of the model is used with a confidence threshold of 0.5 (thre=0.5) to obtain the class IDs, confidence scores, and bounding box coordinates for each detected object.
+
+Drawing Boxes and Labels: For each detected object, a bounding box is drawn around it on the input frame using OpenCV's rectangle function. The class label and confidence score for each object are also displayed near their respective bounding boxes using OpenCV's putText function.
+
+Output Display: The processed frame with bounding boxes and labels is displayed in a window named "Output" using OpenCV's imshow function. The window continuously updates as new frames are processed.
+
+Real-Time Detection: The model continuously captures frames from the camera, detects objects, and displays the output in real-time. The loop continues until the user presses the 'q' key, which breaks out of the loop and ends the program.
+
+The provided object detection model leverages the power of SSD MobileNet v3 to perform real-time object detection, making it useful for applications like video surveillance, object tracking, and many other computer vision tasks that require real-time object detection capabilities.
