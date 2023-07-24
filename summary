@@ -19,3 +19,6 @@ Output Display: The processed frame with bounding boxes and labels is displayed 
 Real-Time Detection: The model continuously captures frames from the camera, detects objects, and displays the output in real-time. The loop continues until the user presses the 'q' key, which breaks out of the loop and ends the program.
 
 The provided object detection model leverages the power of SSD MobileNet v3 to perform real-time object detection, making it useful for applications like video surveillance, object tracking, and many other computer vision tasks that require real-time object detection capabilities.
+
+
+In this model the accuracy of model will be showing whenever it will be predicting the data using the live web cam ,as I have kept a threshold which basically tell that how much perecentage the prediction is correct only then it will be predicting the output
