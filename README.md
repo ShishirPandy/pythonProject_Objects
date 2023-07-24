@@ -1,6 +1,9 @@
 # Real-Time Object Detection with SSD MobileNet v3
 
-This project demonstrates real-time object detection using the SSD MobileNet v3 model with OpenCV. The model is pre-trained on the COCO dataset and can detect a wide range of objects in live video frames captured from a camera.
+This project demonstrates real-time object detection using the SSD MobileNet v3 model with OpenCV. The model is pre-trained on the COCO dataset and can detect a wide range of objects in live video frames captured from a camera
+
+.![example06_result](https://github.com/ShishirPandy/pythonProject_Objects/assets/87159675/71adb3e3-6836-4b59-84b5-ca33bc0dfa05)
+
 
 ## Requirements
 
