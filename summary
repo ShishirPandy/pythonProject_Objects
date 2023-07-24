@@ -1,4 +1,4 @@
- In this Project  I have implement a real-time object detection model using OpenCV and a pre-trained SSD (Single Shot Multibox Detector) MobileNet v3 model. The goal of this model is to detect and classify objects in live video frames captured from a camera.
+In this Project  I have implement a real-time object detection model using OpenCV and a pre-trained SSD (Single Shot Multibox Detector) MobileNet v3 model. The goal of this model is to detect and classify objects in live video frames captured from a camera.
 
 Here's a summary of the object detection model and its functionality:
 
@@ -21,4 +21,4 @@ Real-Time Detection: The model continuously captures frames from the camera, det
 The provided object detection model leverages the power of SSD MobileNet v3 to perform real-time object detection, making it useful for applications like video surveillance, object tracking, and many other computer vision tasks that require real-time object detection capabilities.
 
 
-In this model the accuracy of model will be showing whenever it will be predicting the data using the live web cam ,as I have kept a threshold which basically tell that how much perecentage the prediction is correct only then it will be predicting the output
+In this model the accuracy of model will be showing whenever it will be predicting the data using the live web cam ,as I have kept a threshold which basically tell that how much percentage the prediction is correct only then it will be predicting the output
