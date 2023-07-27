@@ -16,7 +16,7 @@ much percentage then it means the prediction is correct.
 thre = 0.5  # Threshold value for confidence to filter detections
 
 ## now here we will create a list in which we will be storing the class labels as they are stored in coco.names
-file without any indexing so in list they will be stored on the basis of index and based on that prediction will be done 
+#file without any indexing so in list they will be stored on the basis of index and based on that prediction will be done 
 classess = []  # List to store class labels
 classfile = 'coco.names'  # File containing class labels for COCO dataset
 
